@@ -53,6 +53,19 @@ The pipeline ingests multiple data formats. Here are samples of the raw CSV file
 | LOG-004 | 2025-10-01T12:00:00Z | DEV-C300 | INFO | 58 | 9.0 |
 | LOG-005 | 2025-10-02T14:15:00Z | DEV-B201 | ERROR | 92 | 14.8 |
 
+**`alerts` api**
+
+Additionally, the pipeline ingests critical alerts from a mock real-time API. A sample JSON payload for an alert looks like this:
+
+JSON
+
+{
+  "device_id": "DEV-A100",
+  "error_code": "CRITICAL_OVERHEAT",
+  "details": "CPU temperature exceeded 100C threshold.",
+  "alert_timestamp": "2025-10-03T09:30:00Z"
+}
+
 ### Transformation Logic
 
 The AWS Glue ETL job performs several key operations:
