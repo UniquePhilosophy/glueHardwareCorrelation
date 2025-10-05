@@ -13,7 +13,7 @@ The pipeline is built on serverless and managed AWS services to ensure scalabili
 1.  **Data Ingestion (S3):** A data lake in Amazon S3 ingests data from multiple sources, including batch CSV files (`customers`, `sales`, `hardware_logs`) and real-time JSON alerts from an API Gateway and Lambda function.
 2.  **Schema Discovery (AWS Glue Crawler):** A Glue Crawler automatically scans the raw data, infers schemas, and populates the AWS Glue Data Catalog with table metadata.
 3.  **ETL (AWS Glue):** A serverless Apache Spark job written in PySpark reads data from the Glue Catalog, performs transformations, joins disparate sources, and enriches the data.
-4.  **Staging (S3):** The transformed, analytics-ready dataset is written to a 'processed' location in S3 in the optimized columnar Parquet format.
+4.  **Staging (S3):** The transformed, analytics-ready dataset is written to a 'processed' location in S3 in the optimized Parquet format.
 5.  **Data Warehousing (Amazon RDS):** A final Glue job loads the processed Parquet data into a PostgreSQL table in a managed Amazon RDS instance, making it available for querying.
 
 ---
