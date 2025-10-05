@@ -87,7 +87,7 @@ The resulting data is loaded into the Amazon RDS data warehouse. The final `hard
 
 ---
 
-## ✨ Technologies & Skills Demonstrated
+## ✨ Technologies & Skills Used
 
 * **Cloud Engineering:** AWS (S3, Glue, RDS, Lambda, API Gateway, IAM)
 * **Big Data Processing:** Python, PySpark, Pandas, SQL
