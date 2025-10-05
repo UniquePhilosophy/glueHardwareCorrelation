@@ -80,7 +80,7 @@ The AWS Glue ETL job performs several key operations:
 The resulting data is loaded into the Amazon RDS data warehouse. The final `hardware_error_analysis` table contains the unified data, ready for analysis:
 
 | log_id | device_id | cpu_temp_celsius | memory_usage_gb | sale_id | days_since_sale | customer_name | industry |
-|:---|:---|---:|---:|---:|:---|---:|:---|:---|
+|:---|:---|---:|---:|---:|:---|---:|:---|
 | LOG-005 | DEV-B201 | 92 | 14.8 | SALE-105 | 33 | Global Broadcast Co | Broadcast |
 | LOG-002 | DEV-A100 | 85 | 12.5 | SALE-101 | 262 | Visionary Events | Live Events |
 | LOG-008 | DEV-B202 | 88 | 13.2 | SALE-108 | 76 | EventXperts | Live Events |
