@@ -81,9 +81,9 @@ The resulting data is loaded into the Amazon RDS data warehouse. The final `hard
 
 | log_id | device_id | error_timestamp | cpu_temp_celsius | memory_usage_gb | sale_id | days_since_sale | customer_name | industry |
 |:---|:---|---:|---:|---:|:---|---:|:---|:---|
-| LOG-005 | DEV-B201 | nan | 92 | 14.8 | SALE-105 | 33 | Global Broadcast Co | Broadcast |
-| LOG-002 | DEV-A100 | nan | 85 | 12.5 | SALE-101 | 262 | Visionary Events | Live Events |
-| LOG-008 | DEV-B202 | nan | 88 | 13.2 | SALE-108 | -76 | EventXperts | Live Events |
+| LOG-005 | DEV-B201 | 92 | 14.8 | SALE-105 | 33 | Global Broadcast Co | Broadcast |
+| LOG-002 | DEV-A100 | 85 | 12.5 | SALE-101 | 262 | Visionary Events | Live Events |
+| LOG-008 | DEV-B202 | 88 | 13.2 | SALE-108 | 76 | EventXperts | Live Events |
 
 ---
 
