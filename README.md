@@ -1,4 +1,4 @@
-# Project Lumos: An End-to-End Data Engineering Pipeline on AWS
+# End-to-End Hardware Correlation Pipeline on AWS Glue
 
 This project demonstrates a complete, end-to-end data engineering pipeline built on AWS. The goal is to ingest, process, and store data for a hypothetical live events technology company to lay the foundation for answering the key business question: **"Is there a correlation between hardware errors, the client's industry, and the age of the hardware?"**
 
